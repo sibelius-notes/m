@@ -3,7 +3,7 @@ author: Sibelius Peng
 url: 
 baseurl: 
 plugins: [jekyll-paginate]
-permalink: /:year-:month-:day-:title
+permalink: /:title
 paginate: 12
 paginate_path: "/page/:num/"
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
