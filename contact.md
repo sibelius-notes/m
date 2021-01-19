@@ -84,18 +84,19 @@ nodate: true
 	color: #fff;
 }
 </style>
+
 <div class="form-style-2">
 <form
   action="https://formspree.io/f/plc1101@163.com"
   method="POST"
 >
   <label for="field1">
-    Your email:
-    <input type="text" name="_replyto">
+    <span>Email <span class="required">*</span></span>
+    <input type="text" class="input-field" name="_replyto">
   </label>
   <label for="field5">
-    Your message:
-    <textarea name="message"></textarea>
+    <span>Message <span class="required">*</span></span>
+    <textarea name="message"  class="textarea-field"></textarea>
   </label>
 
   <!-- your other form fields go here -->
