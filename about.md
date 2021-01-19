@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: post
 title: About site
 ---
+* content
+{:toc}
 
 This website contains Lecture Notes only, as well as my thoughts regarding the courses. To get started, either take a walk on the homepage or check the top nav bar.
 
