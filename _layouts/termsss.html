@@ -1,24 +1,23 @@
 ---
 layout: default
 ---
-<main class="main container">
-    <div class="content">
-        <div class="typeset">
-        {{ content }}
-        </div>
-        {% assign target = page.term %}
-        <ul class="list list--posts">
-        {% for page in site.posts %}
-            {% if page.term == target %}
-                <li class="item item--post">
-                    <div class="typeset">
-                        <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
-                        <span><br/>{{ page.title | strip_html }}</span>
+{% assign target = page.term %}
+<div class="main-content archive-page clearfix">
+    <div class="categorys-item">
+        <div class="post-lists">
+            <div class="post-lists-body">
+                {% for post in site.posts %}
+                {% if post.term == target %}
+                <div class="post-list-item">
+                    <div class="post-list-item-container">
+                        <div class="item-label">
+                            <div class="item-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+                        </div>
                     </div>
-                </li>
-                <br>
-            {% endif %}
-        {% endfor %}
-        </ul>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
-</main>
+</div>
