@@ -12,6 +12,9 @@ layout: default
                     <div class="post-list-item-container">
                         <div class="item-label">
                             <div class="item-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+                            <div class="item-meta clearfix">
+                                <div class="item-meta-date"> {% include term_fun.html ttt=post.term %} </div>
+                            </div>
                         </div>
                     </div>
                 </div>
