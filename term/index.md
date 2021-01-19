@@ -34,7 +34,7 @@ title: Sort by terms
     .contner {
       margin: 5vh 2.5vw;
       padding: 15vh 0;
-      background: #f9f9f9;
+      background: #f7f7f7;
       border-radius: 5px;
       display: flex;
       flex-direction: column;
@@ -136,8 +136,9 @@ title: Sort by terms
     {% assign courses = site.posts | where: "term", t.term %}
     <div class="search-container">
     {% for c in courses %}
-        <div class="label label--category search-item tooltip">
-        <a href="{{ c.url }}" class="post-tag">{{ c.title }}</a>
+        <div class="item-title search-item tooltip">
+        {% assign num = c.title | split: " - " | first }
+        <a href="{{ c.url }}">{{ num }}</a>
         </div>
     {% endfor %}
     </div>
