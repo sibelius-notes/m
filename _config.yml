@@ -9,3 +9,27 @@ paginate_path: "/page/:num/"
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 highlighter: rouge
 markdown: kramdown
+
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: "My thoughts and ideas"
+  term:
+    title: Terms
+    output: true
+  subject:
+    title: Subjects
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "term"
+    values:
+      layout: termsss
+  - scope:
+      path: ""
+      type: "subject"
+    values:
+      layout: subjectsss
