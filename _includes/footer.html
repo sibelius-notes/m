@@ -22,12 +22,9 @@
             </div>
 
             <div class="meta-item meta-posts">
-                <h3 class="meta-title">RECENT POSTS</h3>
-                {% for post in site.posts limit:7 %}
-                    <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </li>
-                {% endfor %}
+                <div style="float: right;">
+                    {% include histat.html %}
+                </div>
             </div>
 
         </div>
