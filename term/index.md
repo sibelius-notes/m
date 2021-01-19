@@ -136,8 +136,8 @@ title: Sort by terms
     {% assign courses = site.posts | where: "term", t.term %}
     <div class="search-container">
     {% for c in courses %}
-        <div class="item-title search-item tooltip">
-        {% assign num = c.title | split: " - " | first }
+        <div class="item-title search-item">
+        {% assign num = c.title | split: " - " | first %}
         <a href="{{ c.url }}">{{ num }}</a>
         </div>
     {% endfor %}
