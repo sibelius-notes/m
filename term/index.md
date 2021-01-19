@@ -144,7 +144,7 @@ title: Sort by terms
     </div>
 
     <div style="text-align:right;position: absolute;bottom: 0; right: 0; font-size:80%; padding-right:1em;">
-    <a href="{{ t.url }}" class="post-tag">more courses</a>
+    <a href="{{ t.url }}" class="post-tag">more details</a>
     </div>
     </div>
     {% unless t.term == 1179 %}
