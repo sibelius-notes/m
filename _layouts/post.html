@@ -8,7 +8,7 @@ layout: default
             {{ page.title }}
         </h1>
         <div class="post-data">
-            <time itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time>
+            <time itemprop="datePublished">{% include term_fun.html ttt=page.term %}</time>
         </div>
     </div>
 </article>
