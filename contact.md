@@ -101,6 +101,6 @@ nodate: true
 
   <!-- your other form fields go here -->
 
-  <button type="submit" value="Submit">Send</button>
+  <label><span> </span><input type="submit" value="Submit" /></label>
 </form>
 </div>
