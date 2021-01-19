@@ -34,7 +34,7 @@ title: Sort by terms
     .contner {
       margin: 5vh 2.5vw;
       padding: 15vh 0;
-      background: #fff;
+      background: #f9f9f9;
       border-radius: 5px;
       display: flex;
       flex-direction: column;
@@ -55,7 +55,7 @@ title: Sort by terms
     {% for n in all_terms_in_number %}.contner__{{ n }}, {% endfor %}
     .contner__deploy {
       width: 100%;
-      background: #f9f9f9;
+      background: white;
       padding: 1.5rem;
       border-radius: 8px;
       position: relative;
@@ -133,7 +133,7 @@ title: Sort by terms
 <section class="contner">
 {% for t in all_terms %}
     <div class="contner__{{ t.term }}">
-    {% assign courses = site.posts | where: "term", t.term | where: "hide", false %}
+    {% assign courses = site.posts | where: "term", t.term %}
     <div class="search-container">
     {% for c in courses %}
         <div class="label label--category search-item tooltip">
