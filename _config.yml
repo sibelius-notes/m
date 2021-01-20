@@ -2,7 +2,9 @@ name: Lecture Notes
 author: Sibelius Peng
 url: "https://notes.sibeliusp.com"
 baseurl: "/m"
-plugins: [jekyll-paginate]
+plugins:
+    - jekyll-paginate
+    - jekyll-sitemap
 permalink: /:title
 paginate: 12
 paginate_path: "/page/:num/"
