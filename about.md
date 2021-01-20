@@ -2,7 +2,12 @@
 layout: post
 title: About site
 nodate: true
+toc: True
 ---
+* content
+{:toc}
+
+## About
 This website contains Lecture Notes only, as well as my thoughts regarding the courses. To get started, either take a walk on the homepage or check the top nav bar.
 
 Also, check my [blogs](https://blog.sibeliusp.com) and check my [home page](https://sibeliusp.com).
