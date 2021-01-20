@@ -14,8 +14,9 @@ Also, check my [blogs](https://blog.sibeliusp.com) and check my [home page](http
 
 ## Disclaimer
 
-Most (while some are contributed by my friends) of these notes are written in their entirety by me, [Sibelius Peng](https://sibeliusp.com), while attending lectures at the University of Waterloo. I have no intentions of violating any UW policies and will gladly honour takedown notices produced by an authorized UW representative. They are by no means authoritative so use at your own peril.
+Most of these notes are written in their entirety by me, [Sibelius Peng](https://sibeliusp.com), while attending lectures at the University of Waterloo. I have no intentions of violating any UW policies and will gladly honour takedown notices produced by an authorized UW representative. They are by no means authoritative so use at your own peril.
 
+The course thumbnails are either from learn site, which the instructor uploads for the course, or from internet.
 ## Miscellaneous
 [Courses dependency graph](/courses_dependency/).
 
